@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart Example</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="cart.css">
+  
+  </head>
+  <body>
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div class="container"> 
+   <h1>JavaScript Shopping Cart</h1>
+   <p>Click 'Empty Cart' button to remove session cookies from browser.</p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Product 1</h3>
+            <img src="images/one.jpg" alt="Jacket" height="80px" width="80px">
+            <p>Premium Leather Jacket</p>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Add To Cart</button>
+        </div><br>
+        <div class="product">
+            <h3 class="productname">Product 2</h3>
+            <img src="images/four.jpg" alt="Top" height="80px" width="80px">
+            <p>Shirts Top Varieties Summer</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 3</h3>
+            <img src="images/Five.jpg" alt="Jacket" height="80px" width="80px">
+            <p>Biege Woman's jacket</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 4</h3>
+            <img src="images/Shirts.jpg" alt="Shirt" height="80px" width="80px">
+            <p>Winter Sweat Shirt</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 5</h3>
+            <img src="images/Hoodie.jpg" alt="Hoodie" height="80px" width="80px">
+            <p>Simple Elegent Hoodie</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 6</h3>
+            <img src="images/Shoes1.jpg" alt="Shoes" height="80px" width="80px">
+            <p>High Quality Shoes</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <a href="creatNew.html"><button id="checkout" href="" >Checkout</button></a>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+        <script  src="cart.js"></script> 
+  </body>
+</html>
